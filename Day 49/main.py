@@ -41,7 +41,7 @@ while True:
                 (By.XPATH, '//*[@id="base-sign-in-modal_session_password"]')
             )
         )
-        password_input.send_keys("Fatlaser@2019")
+        password_input.send_keys("pass")
         sign_in_button = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (
